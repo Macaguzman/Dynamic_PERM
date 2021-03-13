@@ -1,5 +1,5 @@
 
-a {
+a{
   cursor: pointer;
 }
 
@@ -52,8 +52,7 @@ body {
 
 #scrolly {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   background-color: #faf9e0;
 
@@ -62,7 +61,8 @@ body {
 #scrolly > * {
   -webkit-box-flex: 1;
   -ms-flex: 1;
-  flex:1;}
+  flex:1;
+}
 
 article {
   position: relative;
