@@ -1,0 +1,50 @@
+{"name":"US", "total": 157530000, "children":
+    [{
+    "name":"Total PERM petitions: 263,746","total":264746,
+    "children":
+    [{"name":"Africa", "total":4062,"children": 
+        [{"name": "Algeria", "total": "33"}, {"name": "Angola", "total": "8"}, {"name": "Benin", "total": "13"}, {"name": "Botswana", "total": "12"}, {"name": "Burkina Faso", "total": "20"}, 
+            {"name": "Burundi", "total": "2"}, {"name": "Cameroon", "total": "74"}, {"name": "Cape Verde", "total": "3"}, 
+            {"name": "Chad", "total": "1"}, {"name": "Comoros", "total": "1"}, {"name": "Egypt", "total": "661"}, 
+            {"name": "Equatorial Guinea", "total": "1"}, {"name": "Eritrea", "total": "2"}, {"name": "Ethiopia", "total": "110"}, 
+            {"name": "Gabon", "total": "5"}, {"name": "Gambia", "total": "8"}, {"name": "Ghana", "total": "232"}, {"name": "Guinea", "total": "3"}, 
+            {"name": "Guinea-Bissau", "total": "5"}, {"name": "Ivory Coast", "total": "10"}, {"name": "Kenya", "total": "216"}, {"name": "Liberia", "total": "4"}, 
+            {"name": "Libya", "total": "96"}, {"name": "Madagascar", "total": "7"}, {"name": "Malawi", "total": "37"}, {"name": "Mali", "total": "9"}, {"name": "Mauritania", "total": "3"}, 
+            {"name": "Mauritius", "total": "36"}, {"name": "Morocco", "total": "121"}, {"name": "Mozambique", "total": "3"}, {"name": "Namibia", "total": "7"}, {"name": "Niger", "total": "6"}, 
+            {"name": "Nigeria", "total": "733"}, {"name": "Rwanda", "total": "39"}, {"name": "Senegal", "total": "28"}, {"name": "Seychelles", "total": "1"}, {"name": "Sierra Leone", "total": "4"}, 
+            {"name": "Somalia", "total": "2"}, {"name": "South Africa", "total": "770"}, {"name": "Sudan", "total": "21"}, {"name": "Swaziland", "total": "4"}, {"name": "Tanzania", "total": "43"}, 
+            {"name": "Togo", "total": "5"}, {"name": "Tunisia", "total": "46"}, {"name": "Uganda", "total": "50"}, {"name": "Zambia", "total": "28"}, {"name": "Zimbabwe", "total": "539"}]
+        }, 
+    {"name":"Asia","total":211946,"children": [{"name": "Afghanistan", "total": "16"}, {"name": "Armenia", "total": "126"}, {"name": "Azerbaijan", "total": "49"}, {"name": "Bahrain", "total": "15"}, 
+        {"name": "Bangladesh", "total": "1085"}, {"name": "Bhutan", "total": "5"}, {"name": "Brunei", "total": "6"}, {"name": "Cambodia", "total": "71"}, {"name": "China", "total": "26250"}, 
+        {"name": "Cyprus", "total": "41"}, {"name": "Georgia", "total": "52"}, {"name": "Hong Kong", "total": "432"}, {"name": "India", "total": "145926"}, {"name": "Indonesia", "total": "435"}, 
+        {"name": "Iran", "total": "1786"}, {"name": "Iraq", "total": "28"}, {"name": "Israel", "total": "1229"}, {"name": "Japan", "total": "1740"}, {"name": "Jordan", "total": "425"}, 
+        {"name": "Kazakhstan", "total": "96"}, {"name": "Kuwait", "total": "17"}, {"name": "Kyrgyzstan", "total": "32"}, {"name": "Laos", "total": "6"}, {"name": "Lebanon", "total": "384"}, 
+        {"name": "Macau", "total": "23"}, {"name": "Malaysia", "total": "623"}, {"name": "Maldives", "total": "2"}, {"name": "Mongolia", "total": "217"}, {"name": "Nepal", "total": "2211"}, 
+        {"name": "Oman", "total": "3"}, {"name": "Pakistan", "total": "2601"}, {"name": "Palestine", "total": "48"}, {"name": "Philippines", "total": "3794"}, {"name": "Qatar", "total": "1"}, 
+        {"name": "Saudi Arabia", "total": "83"}, {"name": "Singapore", "total": "571"}, {"name": "South Korea", "total": "13233"}, {"name": "Sri Lanka", "total": "492"}, {"name": "Syria", "total": "268"}, 
+        {"name": "Taiwan", "total": "2754"}, {"name": "Tajikistan", "total": "23"}, {"name": "Thailand", "total": "800"}, {"name": "Turkey", "total": "1735"}, {"name": "Turkmenistan", "total": "26"}, 
+        {"name": "United Arab Emirates", "total": "6"}, {"name": "Uzbekistan", "total": "106"}, {"name": "Vietnam", "total": "2051"}, {"name": "Yemen", "total": "23"}]
+    }, 
+    {"name":"Australia/Oceania", "total": 1735, "children": [{"name": "Australia", "total": "1477"}, {"name": "Fiji", "total": "6"}, {"name": "Kiribati", "total": "1"}, {"name": "Marshall Islands", "total": "2"}, 
+        {"name": "Micronesia", "total": "3"}, {"name": "New Zealand", "total": "246"}]
+    },
+    {"name":"Europe", "total": 19203, "children": [{"name": "Albania", "total": "107"}, {"name": "Andorra", "total": "1"}, {"name": "Austria", "total": "135"}, {"name": "Belarus", "total": "429"}, {"name": "Belgium", "total": "198"}, 
+        {"name": "Bulgaria", "total": "362"}, {"name": "Croatia", "total": "97"}, {"name": "Czech Republic", "total": "133"}, {"name": "Denmark", "total": "118"}, {"name": "Estonia", "total": "39"}, {"name": "Finland", "total": "154"}, 
+        {"name": "France", "total": "2247"}, {"name": "Germany", "total": "1508"}, {"name": "Gibraltar", "total": "1"}, {"name": "Greece", "total": "429"}, {"name": "Hungary", "total": "225"}, {"name": "Iceland", "total": "40"}, 
+        {"name": "Ireland", "total": "771"}, {"name": "Italy", "total": "1414"}, {"name": "Latvia", "total": "46"}, {"name": "Liechtenstein", "total": "2"}, {"name": "Lithuania", "total": "78"}, {"name": "Luxembourg", "total": "7"}, 
+        {"name": "Macedonia", "total": "68"}, {"name": "Malta", "total": "4"}, {"name": "Moldova", "total": "97"}, {"name": "Montenegro", "total": "11"}, {"name": "Netherlands", "total": "366"}, {"name": "Norway", "total": "68"}, 
+        {"name": "Poland", "total": "1145"}, {"name": "Portugal", "total": "289"}, {"name": "Romania", "total": "546"}, {"name": "Russia", "total": "1851"}, {"name": "Serbia", "total": "201"}, {"name": "Slovakia", "total": "80"}, 
+        {"name": "Slovenia", "total": "44"}, {"name": "Spain", "total": "1091"}, {"name": "Sweden", "total": "302"}, {"name": "Switzerland", "total": "170"}, {"name": "Ukraine", "total": "1348"}, {"name": "United Kingdom", "total": "2981"}]
+    }, 
+    {"name":"North America", "total": 18858, "children": [{"name": "Bahamas", "total": "69"}, {"name": "Barbados", "total": "37"}, {"name": "Belize", "total": "30"}, {"name": "Bermuda", "total": "7"}, {"name": "British Virgin Islands", "total": "2"}, 
+        {"name": "Canada", "total": "9432"}, {"name": "Cayman Islands", "total": "1"}, {"name": "Costa Rica", "total": "212"}, {"name": "Cuba", "total": "4"}, {"name": "Dominica", "total": "22"}, {"name": "Dominican Republic", "total": "213"}, 
+        {"name": "El Salvador", "total": "648"}, {"name": "Grenada", "total": "34"}, {"name": "Guatemala", "total": "244"}, {"name": "Haiti", "total": "203"}, {"name": "Honduras", "total": "281"}, {"name": "Jamaica", "total": "263"}, 
+        {"name": "Mexico", "total": "7015"}, {"name": "Montserrat", "total": "1"}, {"name": "Nicaragua", "total": "60"}, {"name": "Panama", "total": "80"}]
+    }, 
+    {"name":"South America", "total": 8942,"children": [{"name": "Argentina", "total": "827"}, {"name": "Bolivia", "total": "132"}, {"name": "Brazil", "total": "3261"}, {"name": "Chile", "total": "348"}, {"name": "Colombia", "total": "1126"}, 
+        {"name": "Ecuador", "total": "420"}, {"name": "Guyana", "total": "26"}, {"name": "Paraguay", "total": "30"}, {"name": "Peru", "total": "461"}, {"name": "Suriname", "total": "6"}, {"name": "Uruguay", "total": "93"}, {"name": "Venezuela", "total": "2212"}]
+    }]},
+    {
+        "name":"","total":152265254
+    }]}
