@@ -128,9 +128,10 @@ figure p {
 .step {
   width:100%;
   height: auto;
+  font-size: 12px;
   margin-top:55px;
   margin-right: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-left:10px;
   background-color: #fff;
   color: #fff;
@@ -142,6 +143,7 @@ figure p {
 
 .step.is-active {
   height: auto;
+  font-size: 12px;
   background-color: #ebeaf8;
   color: #080855;
   border: 4px solid #080855;
@@ -151,7 +153,7 @@ figure p {
   text-align: justify;
   align-items: center;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 14px;
 
 }
 #section_2{
