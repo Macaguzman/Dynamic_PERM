@@ -1,6 +1,6 @@
 {"name":"US", "total": 157530000, "children":
     [{
-    "name":"Total PERM petitions: 263,746","total":264746,
+    "name":"Total PERM petitions: 0.26M","total":264746,
     "children":
     [{"name":"Africa", "total":4062,"children": 
         [{"name": "Algeria", "total": "33"}, {"name": "Angola", "total": "8"}, {"name": "Benin", "total": "13"}, {"name": "Botswana", "total": "12"}, {"name": "Burkina Faso", "total": "20"}, 
@@ -46,5 +46,5 @@
         {"name": "Ecuador", "total": "420"}, {"name": "Guyana", "total": "26"}, {"name": "Paraguay", "total": "30"}, {"name": "Peru", "total": "461"}, {"name": "Suriname", "total": "6"}, {"name": "Uruguay", "total": "93"}, {"name": "Venezuela", "total": "2212"}]
     }]},
     {
-        "name":"","total":152265254
+        "name":"US Employment at 2019: 157.5M","total":152265254
     }]}

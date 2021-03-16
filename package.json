@@ -28,11 +28,20 @@
   },
   "dependencies": {
     "d3": "^6.6.0",
+    "d3-collection": "^1.0.7",
+    "d3-geo": "^2.0.1",
     "d3-geo-projection": "^3.0.0",
+    "d3-geomap": "^3.3.0",
+    "d3-queue": "^3.0.7",
     "d3-selection": "^2.0.0",
+    "d3-svg-annotation": "^2.5.1",
+    "d3-time-format": "^3.0.0",
+    "geojson": "file:node_modules/geojson",
     "infinite-scroll": "^4.0.1",
     "intersection-observer": "^0.12.0",
-    "scrollama": "^2.2.1"
+    "queue": "^6.0.2",
+    "scrollama": "^2.2.1",
+    "topojson": "^3.0.2"
   },
   "scripts": {
     "start": "webpack-dev-server",
