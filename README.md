@@ -1,58 +1,49 @@
-# Dynamic Project Scaffold
+# WORKING LEGALLY ON THE U.S
+## A dynamic overview over the origin of Permanent Labor Petitioner's
 
-In this folder I've provided an example project that enables you to use modern javascript tooling with as little effort as possible. This scaffold includes
+This project was created with the intention of analyzing graphically the location around the world where the PERM Petitioners are coming.
 
-- a dev server that combines javascript modules and presents them to the browser. This comes with autoreload for free! It's great.
-- linters and autoformaters so you'll be able to check if your writing well styled javascript code. I have some pretty strong linting in here. You can disable them if you want, but you'll be judged.
+#### What is a PERM petition?
+A Permanent Labor Certification, well-known as PERM (Program Electronic Review Management),is usuallly the first step of three steps to obtain a permanentely work authorization in the US. This is one of the most important steps because after the certification of a PERM the employer demostrates that there are no U.S. workers who are able, willing, qualified, and available to perform the work being given to the foreign worker and that the employment of the foreign worker will not adversely affect the wages and working conditions of similarly employed U.S. workers. When this step is already completed and CERTIFIED the employer can apply for a green card from the USCIS on behalf of a foreign national.
 
+### Project Structure of the WebPage
+The project has 5 main sections:
+- Introduction
+- Petitions between years 2015 to 2019
+- Analysis of the country of origin of the applicants.
+- Annual distribution (between 2015 and 2019) of the total PERM requests.
+- Credits
 
+### Files on Github
+On the main folder you will find:
+- Html with all the structure of the webpage
+- Data folder: Contains the json files with the main data to create the graphs and visualizations.
+- Node Modules folder: Intalation of packages used to run my visualizations.
+- scr folder: On this folder you will find,<br>
+     app.js that is a javascript file with the code for each of the vizualizations and to run the scroller.<br>
+     main.css configuration of the style of the webpage<br>
 
-## Setup
+### npm installations
+For this job I installate the following packages:
+- npm install intersection-observer;
+- npm install scrollama
+- npm install d3-fetch
+- npm install d3
+- npm install d3-collection
+- npm install d3-time-format
 
-Make sure you have npm/node/yarn installed.
+### Sources
+- Source1: https://medium.com/@kj_schmidt/making-an-animated-donut-chart-with-d3-js-17751fde4679 - Donut Chart Creation
+- Source 2: https://www.w3schools.com/css/default.asp - CSS Tutorial
+- Source 3: https://www.d3-graph-gallery.com/graph/custom_color.html - Color Pallete
+- Source 4: https://stackoverflow.com/questions/24193593/d3-how-to-change-dataset-based-on-drop-down-box-selection - drop down
+- Source 5: https://www.w3schools.com/howto/howto_css_three_columns.asp - Div sections
+- Source 6: https://www.d3-graph-gallery.com/graph/custom_legend.html - Legends
+- Source 7: https://observablehq.com/@johnhaldeman/tutorial-on-d3-basics-and-circle-packing-heirarchical-bubb - Circle Packing
+- Source 8: https://www.d3-graph-gallery.com/circularpacking.html - Circle Pack
+- Source 9: https://github.com/russellgoldenberg/scrollama - Instructions for Scrollama
+- Source 10: https://www.npmjs.com/package/scrollama - npm scrollama
+- Source 11: http://jsfiddle.net/ur5rx/1/ - Simulation
+- Source 12: https://observablehq.com/@d3/d3-hierarchy - Understand Hierarchical elements
+- Source 13: https://bl.ocks.org/LemoNode/a9dc1a454fdc80ff2a738a9990935e9d - Multichart
 
-```sh
-npm install
-# then
-npm run start
-
-# or if yarn-ing
-yarn
-# then
-yarn start
-```
-
-
-You will need to be explicit about your imports, eg
-```js
-import {functionFromModule} from 'target-module';
-```
-
-In this scaffold I have not installed any d3 packages. Some helpful ones (read the ones I usually end up using) are d3-selection, d3-scale, and d3-shape. To add one of these packages just do
-
-```sh
-npm install --save PACKAGENAME
-
-# or if yarning
-yarn add PACKAGENAME
-```
-
-
-## Usage
-
-Development:
-
-Step 1: Do all of your work in src. There is no step 2.
-
-Production:
-
-There are currently two easy ways to deploy this scaffold onto the internet.  
-
-### Netlify
-
-Netlify is an excellent company that tries to make the dev process as easy as possible. The way you deploy this scaffold there is get an account, start a new project, point it to the relevant github folder (that contains just this scaffold!), set the build command to be 'yarn build' and that's it.
-
-
-### GH Pages
-
-gh-pages is a wonderful resource for doing web-development, and allows you to have classy YOU_PERSONAL_DOMAIN/projectname type links. You can deploy this scaffold there by running 'yarn build' in your command line, commiting the modified file, and push to github. If you've configured your projects settings correct it should all just work out.
