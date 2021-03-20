@@ -226,14 +226,14 @@ json('./data/dictiona.json').then((data, error) => {
   var width = 16000
   var pack = data => d3.pack()
     .size([width, height])
-    .padding(8)
+    .padding(20)
     (d3.hierarchy(data)
     .sum(d => d.total)) //Sum the petitions to get the parent node
   
   //Create a color Palette on demand
   var parents = ['US',"Total PERM petitions: 0.26M", "US Employment at 2019: 157.5M", "Africa", "Asia", "Europe", "Australia/Oceania", "North America", "South America"]
   var color = d3.scaleOrdinal().domain(parents)
-  .range(['#FFFFFF',"#FFFFFF", "#FFFFFF", "green", "rgb(0, 110, 255)", 'yellow','#50c9bc', 'red', 'pink']); 
+  .range(['#FFFFFF',"#FFFFFF", "#FFFFFF", "rgb(53, 182, 53)", "rgb(0, 110, 255)", 'yellow','#50c9bc', 'red', 'pink']); 
 
   //Define the root of hierarchical info
   const root = pack(data);
@@ -270,7 +270,7 @@ json('./data/dictiona.json').then((data, error) => {
   const label = svg.append("g")
       .attr("text-anchor", "middle")
       .selectAll("text")
-      .data(root.descendants().filter(function (d){return d.data.total > 150}))
+      .data(root.descendants().filter(function (d){return d.data.total > 240}))
       .join("text")
       .attr('font-weight', function(d) {if ((d.data.name == "US Employment at 2019: 157.5M") ||
       (d.data.name == "Total PERM petitions: 0.26M"))
@@ -279,13 +279,13 @@ json('./data/dictiona.json').then((data, error) => {
       (d.data.name == "Total PERM petitions: 0.26M"))
       {return "600px Comic Sans"}{return "450px Comic Sans"}})
       .attr('dx', function(d){if (d.data.name == "Africa")
-      {return "-4.5em"}{if (d.data.name == "Australia/Oceania"){return "-5.2em"}
+      {return "-5.5em"}{if (d.data.name == "Australia/Oceania"){return "-5.7em"}
       {if (d.data.name == "North America"){return "4em"}
       {if (d.data.name == "Total PERM petitions: 0.26M"){return "6em"}{}}}}})
       .attr('dy', function(d){if (d.data.name == "Total PERM petitions: 0.26M")
         {return "-1.3em"}{if (d.data.name == "South America"){return "-3.5em"}
         {if(d.data.name == "Europe"){return "-5.5em"}
-        {if(d.data.name == "Asia"){return "-15em"}
+        {if(d.data.name == "Asia"){return "-11.8em"}
         {if(d.data.name == "North America"){return "5em"}
         {if(d.data.name == "US Employment at 2019: 157.5M"){return "-10em"}
         {if (d.data.name == "Total PERM petitions: 0.26M"){return "20em"}}}}}}}})
@@ -355,7 +355,7 @@ function donut(data, col){
     var arc = d3.arc().innerRadius (radius - donut_w).outerRadius(radius);
     var cont = ['US',"PERM", "", "Africa", "Asia", "Europe", "Australia and Oceania", "North America", "South America"]
     var color = d3.scaleOrdinal().domain(cont)
-    .range(['#FFFFFF',"#015e54", "#FFFFFF", "green", "rgb(0, 110, 255)", 'yellow','#50c9bc', 'red', 'pink']); 
+    .range(['#FFFFFF',"#015e54", "#FFFFFF", "rgb(53, 182, 53)", "rgb(0, 110, 255)", 'yellow','#50c9bc', 'red', 'pink']); 
 
     //Create the pie chart
     var pie = d3.pie().value(function (d){

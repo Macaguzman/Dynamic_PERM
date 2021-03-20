@@ -156,6 +156,13 @@ figure p {
   font-size: 14px;
 
 }
+
+.step.is-active a:link{
+  color:#080855;
+}
+.step a:link{
+  color:#FFFFFF;
+}
 #section_2{
   margin-top: 200px;
   margin-bottom: 100px;
