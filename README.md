@@ -34,6 +34,9 @@ For this job I installed the following packages:
 - npm install d3-collection
 - npm install d3-time-format
 
+### Data
+I get my data from https://www.dol.gov/agencies/eta/foreign-labor/performance, under the PERM Program fiscal year 2015-2019. After get thedata I used google colab to create each of my tables to use on my Data visualization (Google Colab: https://colab.research.google.com/drive/1g_yRryzI-uX9T3qN-1re9YVfV0USkfGI?usp=sharing)
+
 ### Sources
 - Main Source: Lectures and videos from CAPP 30239 - Data Visualization for Policy Analysis - Andrew McNutt.Winter 2021
 - Source 1: https://medium.com/@kj_schmidt/making-an-animated-donut-chart-with-d3-js-17751fde4679 - Donut Chart Creation
