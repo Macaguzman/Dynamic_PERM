@@ -52,4 +52,5 @@ I get my data from https://www.dol.gov/agencies/eta/foreign-labor/performance, u
 - Source 11: http://jsfiddle.net/ur5rx/1/ - Simulation
 - Source 12: https://observablehq.com/@d3/d3-hierarchy - Understand Hierarchical elements
 - Source 13: https://bl.ocks.org/LemoNode/a9dc1a454fdc80ff2a738a9990935e9d - Multichart
+- Picture U.S flag: https://www.hiclipart.com/free-transparent-background-png-clipart-itxub
 
